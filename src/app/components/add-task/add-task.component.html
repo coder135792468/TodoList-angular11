@@ -1,0 +1,9 @@
+
+<form *ngIf="showAddTask" (ngSubmit)='addTask()'>
+    <input type="text" class="tasks" name='text' [(ngModel)]='text' placeholder="Enter a Task...">
+    <div class="addTask">
+        <input type="checkbox" [(ngModel)]='reminder' name='reminder'  class="reminder">
+        <button type='submit'>Add</button>
+    </div>
+    
+</form>

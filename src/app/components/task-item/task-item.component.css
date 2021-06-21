@@ -1,0 +1,22 @@
+.item{
+    width: 80%;
+    height: 70px;
+    position: relative;
+    top: 10px;
+    left: 10%;
+    margin-bottom: 5px;
+    background-color: white;
+    box-shadow: 0 5px 4px rgba(70, 67, 67, 0.144);
+}
+ 
+ .item h4{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    place-content: center;
+    justify-items: center;
+}
+.item.reminder{
+    border-left: 2px solid green;
+}

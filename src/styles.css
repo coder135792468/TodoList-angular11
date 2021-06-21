@@ -1,0 +1,44 @@
+/* You can add global styles to this file, and also import other style files */
+*{
+    margin: 0;
+    padding: 0%;
+}
+body{
+    max-height: 100vh;
+    max-width: 100vw;
+    overflow: hidden;
+}
+.btn{
+    border: none;
+    padding: .4rem 1rem;
+    outline: none;
+}
+.btn-dark{
+    background-color: black;
+    color:rgb(243, 243, 243);
+    border-radius: 5px;
+}
+.header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    max-width: 100vw;
+    background-color: blanchedalmond;
+    box-shadow: 0px 2px 2px rgba(0,0,0,0.2);
+}
+.header *{
+    margin: 0% 15px;
+}
+.taskCon{
+    width: 100%;
+    height:calc(100vh - 210px);
+    background-color: rgb(253, 217, 169);
+    position: relative;
+    margin: 0%;
+    overflow: scroll;
+}
+.taskCon.showAddTask{
+    height:calc(100vh - 50px);
+}

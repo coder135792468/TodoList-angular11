@@ -1,0 +1,11 @@
+
+<div class="header">
+    <h3>{{title}}</h3>
+    <!-- i am passing props to the child component in this way -->
+    <app-button
+     color='{{showAddTask?"red":"#222"}}'
+     text='{{showAddTask?"Close":"Add"}}'
+     (btnClick)='toggle()'></app-button>
+</div>
+
+<app-tasks></app-tasks>
