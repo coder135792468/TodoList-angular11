@@ -9,6 +9,12 @@ import { HttpClient, HttpHeaders } from '@angular/common/http';
   providedIn: 'root'
 })
 
+//we basically doing the http get ,put , delete request also we update request
+//we are doing the full crud operation
+//c -> create
+//r -> read
+//u -> update
+//d -> delete
 
 export class TaskService {
 private apiUrl = 'http://localhost:5000/taskList'

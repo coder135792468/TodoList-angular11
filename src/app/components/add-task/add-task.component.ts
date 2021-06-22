@@ -2,6 +2,8 @@ import { Component, OnInit, Output,EventEmitter } from '@angular/core';
 import {Task} from '../../task';
 import { UiService } from '../../services/ui.service';
 import { Subscription } from 'rxjs';
+
+//look at the add task components for full information that what exactly every function does
 @Component({
   selector: 'app-add-task',
   templateUrl: './add-task.component.html',
